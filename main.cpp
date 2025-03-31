@@ -19,7 +19,8 @@ int main()
   list1.display(); // [7, 10, 20]
 
   list1.deleteFromPosition(1);
-  list1.display(); // [7, 20]
+  list1.display();                        // [7, 20]
+  std::cout << list1.size() << std::endl; // 2
 
   return 0;
 }
