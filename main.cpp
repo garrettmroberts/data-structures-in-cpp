@@ -26,6 +26,8 @@ int main()
     list.display(); // 10 20 25 30 40 50 null
     list.deleteNode(25);
     list.display(); // 10 20 30 40 50 null
+    list.reverse();
+    list.display(); // 50 40 30 20 10 null
 
     return 0;
 }
